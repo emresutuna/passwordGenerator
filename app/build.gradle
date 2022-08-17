@@ -5,7 +5,10 @@ plugins {
 
 android {
     compileSdk 31
-
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.app.password_generator"
         minSdk 21
