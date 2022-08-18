@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/drawable/next_button_bg.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/drawable/onboarding_card.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/drawable/skip_button_bg.xml" value="0.21510416666666668" />
         <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/drawable/toast_bg.xml" value="0.21875" />
+        <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/layout/activity_onboarding.xml" value="0.21" />
         <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/layout/activity_splash_screen.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/layout/error_toast.xml" value="0.33" />
         <entry key="..\:/Users/Emre/Desktop/password_generator/app/src/main/res/layout/success_toast.xml" value="0.5" />

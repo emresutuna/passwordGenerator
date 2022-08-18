@@ -2,4 +2,6 @@
     <string name="app_name">Kpassword Generator</string>
     <string name="alert_success">İşlem başarıyla tamamlandı</string>
     <string name="alert_error">Bir hata oluştu</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
 </resources>
