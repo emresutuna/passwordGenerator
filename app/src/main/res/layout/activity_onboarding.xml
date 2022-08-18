@@ -5,8 +5,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:background="@color/orangeColor"
         android:layout_height="match_parent"
+        android:background="@color/orangeColor"
         tools:context=".activities.OnboardingActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,12 +19,22 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            ></androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            style="@style/bold18spPurpleText"
             android:id="@+id/skipButton"
+            style="@style/bold18spPurpleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -34,18 +44,27 @@
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/nextButtonStyle"
             android:id="@+id/nextButton"
+            style="@style/nextButtonStyle"
             android:layout_width="wrap_content"
-            android:paddingHorizontal="8dp"
-            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_16"
             android:layout_height="wrap_content"
-            android:text="@string/next"
             android:layout_marginEnd="32dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_16"
             android:gravity="center"
+            android:paddingHorizontal="8dp"
+            android:text="@string/next"
             app:layout_constraintBottom_toBottomOf="@+id/skipButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/skipButton" >
-        </androidx.appcompat.widget.AppCompatButton>
+            app:layout_constraintTop_toTopOf="@+id/skipButton"></androidx.appcompat.widget.AppCompatButton>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/indicatorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
