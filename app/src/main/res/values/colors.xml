@@ -11,4 +11,5 @@
     <color name="orangeColor">#D1512D</color>
     <color name="beigeColor">#F5C7A9</color>
     <color name="whiteColor">#F5E8E4</color>
+    <color name="transparent">#00000000</color>
 </resources>
